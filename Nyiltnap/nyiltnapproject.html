@@ -2,11 +2,11 @@
 <html lang="hu">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Petőfi Nyíltnap</title>
-  <link rel="icon" href="szakiszaki.png" type="image/icon type">
+  <link rel="icon" href="0impact logo.png" type="image/icon type">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 <style>
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
@@ -14,195 +14,80 @@
 body{
   background-color: black;
 }
-
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
-  font-family: 'Josefin Sans', sans-serif;
-}
-
-.wrapper{
-  display: flex;
-  position: relative;
-}
-
-.wrapper .sidebar{
-  width: 200px;
-  height: 100%;
-  background: #0d0014;
-  padding: 30px 0px;
-  position: fixed;
-}
-
-.wrapper .sidebar h2{
-  color: #fff;
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.wrapper .sidebar ul li{
-  padding: 15px;
-  border-bottom: 1px solid #bdb8d7;
-  border-bottom: 1px solid rgba(0,0,0,0.05);
-  border-top: 1px solid rgba(255,255,255,0.05);
-}    
-
-.wrapper .sidebar ul li a{
-  color: #bdb8d7;
-  display: block;
-}
-
-.wrapper .sidebar ul li a .fas{
-  width: 25px;
-}
-
-.wrapper .sidebar ul li:hover{
-  background-color: #0d0014;
-}
-    
-.wrapper .sidebar ul li:hover a{
-  color: #fff;
-}
- 
-.wrapper .sidebar .social_media{
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-}
-
-.wrapper .sidebar .social_media a{
-  display: block;
-  width: 40px;
-  background: #190027;
-  height: 40px;
-  line-height: 45px;
-  text-align: center;
-  margin: 0 5px;
-  color: #bdb8d7;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-}
-
-.wrapper .main_content{
-  width: 100%;
-  margin-left: 200px;
-}
-
-.wrapper .main_content .header{
-  padding: 20px;
-  background: #fff;
-  color: #717171;
-  border-bottom: 1px solid #e0e4e8;
-}
-
-.wrapper .main_content .info{
-  margin: 20px;
-  color: #717171;
-  line-height: 25px;
-}
-
-.wrapper .main_content .info div{
-  margin-bottom: 20px;
-}
-
-@media (max-height: 500px){
-  .social_media{
-    display: none !important;
-  }
-}
 </style>
+
+</head>
+
 
 <body>
   <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 
-  <nav class="navbar navbar-expand-sm bg-light d-block d-sm-none">
-
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
     <div class="container-fluid">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Lap teteje</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">A Petőfiről</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Ágazatok</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Hálózat</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Szoftver</a>
-        </li>
-      </ul>
+      <a class="navbar-brand" href="#">
+        <img src="0impact logo.png" alt="Csapatlogo" style="width:40px;" class="rounded-pill">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="https://petofifgy.hu">A Petőfiről</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#kepek">Ágazatok</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#halozat">Hálózat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#szoftver">Szoftver</a>
+          </li> 
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">A készítőkről</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://www.instagram.com/vrgblzs_/">Bazsi insta</a></li>
+              <li><a class="dropdown-item" href="https://www.instagram.com/ciguzs/">Ákos insta</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </div>
-  
   </nav>
 
-  <div class="wrapper d-none d-sm-block">
-      <div class="sidebar">
-          <h2>0impact.</h2>
-          <ul>
-              <li><a href="#" style="text-decoration: none;"><i class="fas fa-home"></i>Lap teteje</a></li>
-              <li><a href="https://petofifgy.hu" target="_blank" style="text-decoration: none;"><i class="fas fa-address-card"></i>A Petőfiről</a></li>
-              <li><a href="#kepek" style="text-decoration: none;"><i class="fas fa-blog"></i>Ágazatok</a></li>
-              <li><a href="#halozat" style="text-decoration: none;"><i class="fas fa-project-diagram"></i>Hálózat</a></li>
-              <li><a href="#szoftver" style="text-decoration: none;"><i class="fas fa-project-diagram"></i>Szoftver</a></li>
-          </ul> 
-          <div class="social_media">
-            <a href="https://www.instagram.com/vrgblzs_/" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.instagram.com/ciguzs/" target="_blank"><i class="fab fa-instagram"></i></a>
-        </div>
-      </div>
-  <div class="main_content bg-light">
-    <div class="bg-light text-center p-5">
-      <h1 class="display-4">Köszöntünk a nyiltnapon!</h1>
-      <p class="lead">Kérlek, hallgasd végig a beszámolónkat.</p>
-    </div>
-        <div class="container-fluid">
-          <p style="text-align: center;">Ha kilencedik osztályosként informatika szakra jelentkezel, egy izgalmas és kihívásokkal teli időszak vár rád az iskolában.
-          </p>
-          <p style="text-align: center;">Már az első évben megismerkedsz az informatika alapjaival, de ez még csak a kezdet.
-          </p>
-        </div>
-      </div>
+<br><br><br>
+
+<div class="container">
+  <div class="row p-2">
+    <h1 style="text-align: center;">Köszöntünk a nyiltnapon!</h1>
+    <h3 style="text-align: center;">Kérlek, hallgasd végig a beszámolónkat.</h3>
+    <br><br><br><br><br>
+    <p style="text-align: center;">Ha kilencedik osztályosként informatika szakra jelentkezel, egy izgalmas és kihívásokkal teli időszak vár rád az iskolában.</p>
+    <p style="text-align: center;">Már az első évben megismerkedsz az informatika alapjaival, de ez még csak a kezdet.</p>
   </div>
  
-  <div id=kepek class="album py-5 bg-light">
-    <div class="container">
-      <div class="row p-2">
-        <div class="col-md-2">
+  <div class="row p-2" id=kepek>
+    <div class="col-xl-6 col-md-6 col-12">
+      <div class="card" style="width:580px">
+        <img class="card-img-top" src="ai.png" alt="Rendszer- és alkalmazásüzemeltető" style="width:100%">
+        <div class="card-body">
+          <h4 class="card-title">Rendszer- és alkalmazásüzemeltető</h4>
         </div>
-        <div class="col-md-5">
-          <div class="card mb-12 shadow-sm">
-            <img src="ai.png" class="card-img-top">
-            <div class="card-body">
-              <p class="card-text">Rendszer- és alkalmazásüzemeltető</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-5">
-          <div class="card mb-12 shadow-sm">
-            <img src="code.png" class="card-img-top">
-            <div class="card-body">
-              <p class="card-text">Szoftverfejlesztő és -tesztelő</p>
-            </div>
-          </div>
+      </div>
+    </div>
+    <div class="col-xl-6 col-md-6 col-12">
+      <div class="card" style="width:580px">
+        <img class="card-img-top" src="code.png" alt="Szoftverfejlesztő és -tesztelő" style="width:100%">
+        <div class="card-body">
+          <h4 class="card-title">Szoftverfejlesztő és -tesztelő</h4>
         </div>
       </div>
     </div>
   </div>
 
-<div class="container-fluid bg-light" id="halozat">
-  <div class="row p-2">
-    <div class="col-md-2">
-    </div>
-    <div class="col-md-7">
+  <div class="row p-2" id="halozat">
+    <div class="col-xl-8 col-md-8 col-12">
       <p>
         A rendszer- és alkalmazásüzemeltető szakma fontos szerepet játszik a modern informatikai környezetben, mivel a vállalatok és szervezetek megbízható IT infrastruktúrára és folyamatosan működő alkalmazásokra támaszkodnak. Az ezen a területen dolgozó szakemberek felelősek a számítógépes rendszerek, hálózatok, valamint a különféle alkalmazások telepítéséért, konfigurálásáért, karbantartásáért és hibaelhárításáért.
       </p>
@@ -217,25 +102,30 @@ body{
         <li>Biztonsági mentések és helyreállítások</li>
         <li>Rendszerbiztonság fenntartása</li>
       </ul>
+      <p>
+        A Petőfiben ezzel foglalkozunk:
+      </p>
+      <ul>
+        <li>Windows operációs rendszer</li>
+        <li>Linux operációs rendszer</li>
+        <li>Virtualizáció</li>
+        <li>DHCP</li>
+        <li>IPv4 és IPv6</li>
+        <li>Cisco Packet Tracer</li>
+        <li>HTTP és HTTPS</li>
+        <li>FTP</li>
+      </ul>
     </div>
-    <div class="col-md-3">
+    <div class="col-xl-4 col-md-4 col-12">
       <img src="ai.png" height="300" width="400">
     </div>
   </div>
-</div>
 
-<div class="bg-light">
-  <br><br><br>
-</div>
-
-<div class="container-fluid bg-light" id="szoftver">
-  <div class="row p-2">
-    <div class="col-md-2">
-    </div>
-    <div class="col-md-3">
+  <div class="row p-2" id="szoftver">
+    <div class="col-xl-4 col-md-4 col-12">
       <img src="code.png" height="300" width="400">
     </div>
-    <div class="col-md-7">
+    <div class="col-xl-8 col-md-8 col-12">
       <p>
         A szoftverfejlesztő és -tesztelő szakma a modern technológiai világ egyik legfontosabb területét foglalja magában. A szoftverfejlesztők és tesztelők felelnek a számítógépes programok, mobilalkalmazások és egyéb digitális megoldások létrehozásáért, valamint azok minőségének biztosításáért.
       </p>
@@ -250,10 +140,47 @@ body{
         <li>Rendszertervezés</li>
         <li>Dokumentáció készítése</li>
       </ul>
+      <p>
+        A Petőfiben ezzel foglalkozunk:
+      </p>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Bootstrap 5</li>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>C#</li>
+        <li>Wordpress</li>
+        <li>PHP</li>
+      </ul>
     </div>
   </div>
-</div>
+
+<br><br><br><br><br><br>
+
+  <div class="row p-2">
+    <h1 style="text-align: center;">Tovább szeretnél tanulni?</h1>
+    <h3 style="text-align: center;">Itt vannak a lehetőségek, a választható egyetemi szakok:</h3>
+    <br><br><br>
+  </div>
+
+  <div class="row p-2" id="egyetem">
+    <div class="col-xl-8 col-md-8 col-12">
+      <img src="egyetem.jpg" height="500" width="840">
+    </div>
+    <div class="col-xl-4 col-md-4 col-12">
+      <ul>
+        <br><br>
+        <li>Programtervező informatikus (BSc)</li>
+        <br><br><br><br>
+        <li>Mérnökinformatikus (BSc)</li>
+        <br><br><br><br>
+        <li>Gazdaságinformatikus (BSc)</li>
+        <br><br><br><br>
+        <li>Informatikatanár</li>
+      </ul>
+    </div>
+  </div>
 
 </div>
-  
 </body>
