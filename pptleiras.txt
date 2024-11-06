@@ -1,0 +1,14 @@
+Max 10 perc bemutato
+
+1. dia:
+Palyaorientacios nap ppt cim
+
+2. dia:
+Oldal beagyazasa, bemutatasa
+
+Tovabbi diak:
+Miket hasznaltunk a projekt elkeszulesehez? (github, trello)
+Vazlatpont szeruen felsorolni
+Milyen technologiat hasznaltunk? (photoshop, vscode)
+Milyen nyelveket hasznaltunk? (html, css, javascript)
+CMS Framework hasznalata (bs5)
