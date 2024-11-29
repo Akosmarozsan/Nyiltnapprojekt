@@ -17,6 +17,25 @@
   border-radius: 10px; 
 }
 
+.uniform-card {
+  height: 100%; 
+  display: flex;
+  flex-direction: column; 
+}
+
+.uniform-card img {
+  height: 338px; 
+  object-fit: cover; 
+}
+
+.uniform-card .card-body {
+  flex-grow: 1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+
 </style>
 
 </head>
@@ -108,7 +127,7 @@
 
 <h1 style="text-align: center;">Ágazatok</h1>
 <br>
-<div class="container-fluid">
+ <div class="container-fluid">
   <div class="row p-2" id=kepek>
     <div class="col-xl-6 col-md-6 col-12">
       <div class="card">
@@ -222,34 +241,60 @@
 
   <hr>
 
-  <div class="row p-2" id="egyetem">
+  <div class="row" id="egyetem">
     <h1 style="text-align: center;">Tovább szeretnél tanulni?</h1>
     <h3 style="text-align: center;">Itt vannak a lehetőségek, a választható egyetemi szakok:</h3>
     <br><br><br>
   </div>
-
-  <div class="row p-2">
-    <div class="col-xl-8 col-md-12 col-12">
-      <img src="egyetem.jpg" class="img-fluid">
+  <div class="row">
+    <div class="col-xl-6 col-md-12">
+      <img src="egyetem.jpg" class="img-fluid" alt="Egyetem">
     </div>
-    <div class="col-xl-4 col-md-12 col-12">
-      <br>
-      <button class="btn btn-secondary w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
-        Választható egyetemi szakok
-      </button>
-      <div class="collapse" id="collapseExample1">
-        <div class="card card-body">
-          <p style="text-align: center;">
-            Programtervező informatikus (BSc) <br>
-            Mérnökinformatikus (BSc) <br>
-            Gazdaságinformatikus (BSc) <br>
-            Informatikatanár <br>
-          </p>
+  
+    <div class="col-xl-6 col-md-12">
+      <div class="row">
+        <div class="col-xl-6 col-md-6 col-12">
+          <div class="card uniform-card">
+            <img class="card-img-top" src="1programtervezo.jpg" alt="Programtervező Informatikus">
+            <div class="card-body">
+              <h4 class="card-title">Programtervező informatikus (BSc)</h4>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-xl-6 col-md-6 col-12">
+          <div class="card uniform-card">
+            <img class="card-img-top" src="1mernokinfo.jpg" alt="Mérnökinformatikus">
+            <div class="card-body">
+              <h4 class="card-title">Mérnökinformatikus (BSc)</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="row mt-3">
+        <div class="col-xl-6 col-md-6 col-12">
+          <div class="card uniform-card">
+            <img class="card-img-top" src="1gazdasagiinformatikus.jpg" alt="Gazdaságinformatikus">
+            <div class="card-body">
+              <h4 class="card-title">Gazdaságinformatikus (BSc)</h4>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-xl-6 col-md-6 col-12">
+          <div class="card uniform-card">
+            <img class="card-img-top" src="1infotanar.jpg" alt="Informatikatanár">
+            <div class="card-body">
+              <h4 class="card-title">Informatikatanár</h4>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
+    
+    
+  
 
 <hr>
 
