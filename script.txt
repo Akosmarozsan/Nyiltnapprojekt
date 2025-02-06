@@ -1,0 +1,43 @@
+Bazsi:
+----------
+Osszeallitottunk egy weboldalt es egy prezentaciot az eddig megszerzett ismereteinket alapul veve.
+
+Ciga:
+----------
+[felolvassuk a cimet, keszitok nevet]
+Eloszor is, kezdjuk azzal, hogy hogyan is nez ki a weblap. A prezentacioban ha raklikkelunk a szovegre, amelyet hivatkozassal lattunk el, el is visz minket az oldalra.
+
+Bazsi:
+----------
+Amint belepunk az oldalra, elso dolog amit latunk az 3 kep, amelyeket leirassal is ellattunk.
+A kepvetites felett lathato egy fix pozicioju navigacios sav, amelyek elemeire ha ranyomunk, odavisz a megadott helyre az oldalon belul vagy kivul.
+De haladjunk sorban. A kepek alatt talalhato 2 kartya elem, az informatika szak 2 agat tartalmazza.
+Lejjebb lapozva a 2 agazat kivan fejtve bovebben. [felolvasas]
+Tovabb menve talalunk egy kepet egy egyetemrol, pontositva a kepen a Debreceni Egyetem lathato. A kep mellett lathato egy gomb, amelyre rakattintva a gomb lenyilik, es egy lista lesz belole.
+Ez a lista a valaszthato egyetemi szakokat tartalmazza, amelyeken tovabb tudjuk boviteni a tudasunkat. [felolvasas]
+Kovetkezo szekcionk a lehetseges allaslehetosegeket tartalmazza, amit a vegzettsegunkkel tudunk vegezni. [felolvasas]
+Ez ala kerult egy Google Terkep beagyazas, amely segitsegevel kapcsolatba tudnak kerulni az iskolaval az oldalra latogatok. Ebben a terkepben tudunk kozeliteni es tavolitani.
+Az oldal pedig egy footer elemmel zarodik, ez magyarra forditva a weblap laba. Ide tehetunk tovabbi hivatkozasokat, illetve, hogyha az oldal a mi tulajdonunk, tuntessuk fel.
+Mi peldaul 3 linket tettunk bele: az elso a lap tetejere visz, a masik 2 pedig az Instagram oldalunkra.
+Az oldal teljes mertekben reszponziv, ami annyit jelent, hogy minden eszkozon (szamitogep, tablet, telefon) a latogato szamara legjobban helyezkedik el minden. Ezt mutassuk is meg szerintem. 
+Az oldalrol ennyit, terjunk vissza a prezentaciora. 
+
+Ciga:
+----------
+A csapatmunkaban a legfontosabb kerdes az, hogy mi a leghatekonyabb modja a kozos munkahoz. Ezert megosztjuk veletek, hogy mi mit hasznaltunk. 2 webes feluletet hasznaltunk: a Githubot, amely arra van,
+hogy a fejlesztok verziokovetessel kezeljek a megirt kodokat, es konnyen megosszak egymassal a projekt fajljait. A masik felulet a Trello volt, ami egy projektmenedzsment eszkoz,
+amelyben listak es kartyak segitsegevel tudunk nyomon kovetni a megszabott feladatokat.
+Kovetkezo fejezetunk a programok, amelyeket hasznaltuk.
+A weblap szerkesztesehez a Visual Studio Code nevu alkalmazast hasznaltuk.
+Ez egy fejlesztoi kornyezet, amely tobb programnyelvet is tud kezelni, koztuk a HTML-t is, ami a weblapunk nyelve. A masik alkalmazas az Adobe Photoshop volt, amely a kepszerkesztesre kituno alkalmazas. 
+Kovetkezo kerdes, hogy milyen nyelveket hasznaltunk a projekt soran. Ezek a HTML5, a CSS3, es a JavaScript volt.
+Mindrol ejtsunk par szot: A HTML5 egy leironyelv, a CSS3 segit az oldalunk dekoralasaval, a JavaScript pedig funkciokat kezel.
+A HTML5-hoz segitsegul vettuk a Bootstrap 5 CMS keretrendszert, amely leegyszerusiti a HTML-ben valo fejlesztestest, mivel elore megirt elemek vannak benne.
+[utolso dia felolvasas]
+
+miert valasztottuk a projektet
+cel
+swot analizis
+munkamegosztas
+
+kepek magunkrol munka kozben
